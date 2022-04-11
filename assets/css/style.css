@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .name span {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.562);
+}
+
+.container .name h1 {
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.logo {
+    width: 90px;
+    height: 3px;
+    border-radius: 25%;
+    margin-top: 15px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 7%, #C850C0 59%, #FFCC70 100%);
+
+}
+
+.container .description {
+
+    margin-top: 15px;
+}
+
+.container {
+   max-width: 1280px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.row .about-info {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 208px;
+    height: 100%;
+}
+
+section {
+    margin-top: 50px;
+}
+
+section .row .titles {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+h3 {
+    margin: 30px 0;
+
+}
+
